@@ -24,7 +24,7 @@ genai.configure(api_key=os.environ['API_KEY'])
 
 model = genai.GenerativeModel('gemini-pro-vision')
 
-img = PIL.Image.open(".\\Aula1\\img\\img1.png")
+img = PIL.Image.open(".\\img\\img1.png")
 
 response = model.generate_content(img)
 to_markdown(response.text)

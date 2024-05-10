@@ -35,7 +35,7 @@ while my_text != '':
         
         prompt_parts = [
         "Input: "+my_text,
-        "output roles: 1 - Craft a response that playfully pokes fun at my previous statement as you were a infinitly old wizard. 2 - Your name is Salabim. 3 - Try to end your sentence introducing another interesting topic to talk about."
+        "output: 1 - Craft a response that playfully pokes fun at my previous statement as you were a infinitly old wizard. 2 - Your name is Salabim. 3 - Try to end your sentence introducing another interesting topic to talk about."
         ]
 
         response = chat.send_message(prompt_parts)
